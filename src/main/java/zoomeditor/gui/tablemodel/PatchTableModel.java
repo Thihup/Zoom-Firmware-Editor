@@ -28,17 +28,13 @@ public class PatchTableModel implements TableModel {
 
     @Override
     public String getColumnName(int columnIndex) {
-        switch (columnIndex) {
-            case 0:
-                return ZoomFirmwareEditor.getMessage("fileNameColumn");
-            case 1:
-                return ZoomFirmwareEditor.getMessage("patchNameColumn");
-            case 2:
-                return ZoomFirmwareEditor.getMessage("sizeColumn");
-            case 3:
-                return ZoomFirmwareEditor.getMessage("blocksColumn");
-        }
-        return "";
+        return switch (columnIndex) {
+            case 0 -> ZoomFirmwareEditor.getMessage("fileNameColumn");
+            case 1 -> ZoomFirmwareEditor.getMessage("patchNameColumn");
+            case 2 -> ZoomFirmwareEditor.getMessage("sizeColumn");
+            case 3 -> ZoomFirmwareEditor.getMessage("blocksColumn");
+            default -> "";
+        };
     }
 
     @Override
@@ -58,17 +54,13 @@ public class PatchTableModel implements TableModel {
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
         Patch bean = patches.get(rowIndex);
-        switch (columnIndex) {
-            case 0:
-                return bean.getFileName();
-            case 1:
-                return bean.getName();
-            case 2:
-                return bean.getSize();
-            case 3:
-                return PatchService.calculatePatchBlocksCount(bean.getSize());
-        }
-        return "";
+        return switch (columnIndex) {
+            case 0 -> bean.getFileName();
+            case 1 -> bean.getName();
+            case 2 -> bean.getSize();
+            case 3 -> PatchService.calculatePatchBlocksCount(bean.getSize());
+            default -> "";
+        };
     }
 
     @Override

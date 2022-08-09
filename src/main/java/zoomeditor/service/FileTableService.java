@@ -1,11 +1,11 @@
-package main.java.zoomeditor.service;
+package zoomeditor.service;
 
-import main.java.ZoomFirmwareEditor;
-import main.java.zoomeditor.model.FileTable;
-import main.java.zoomeditor.model.Firmware;
-import main.java.zoomeditor.model.Patch;
-import main.java.zoomeditor.util.ArrayUtils;
-import main.java.zoomeditor.util.ByteUtils;
+import zoomeditor.ZoomFirmwareEditor;
+import zoomeditor.model.FileTable;
+import zoomeditor.model.Firmware;
+import zoomeditor.model.Patch;
+import zoomeditor.util.ArrayUtils;
+import zoomeditor.util.ByteUtils;
 
 import java.util.ArrayList;
 import java.util.logging.Level;

@@ -1,3 +1,15 @@
-/Zoom.iml
+.classpath
+.factorypath
+.DS_Store
+.project
+.settings/
+.vscode
+dependency-reduced-pom.xml
+nb-configuration.xml
+nbactions.xml
+nbproject/
+target/
 .idea
-out
+*.iml
+*.original~
+

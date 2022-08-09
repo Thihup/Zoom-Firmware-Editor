@@ -1,9 +1,9 @@
-package main.java.zoomeditor.gui;
+package zoomeditor.gui;
 
-import main.java.ZoomFirmwareEditor;
-import main.java.zoomeditor.gui.listener.UniversalListener;
-import main.java.zoomeditor.gui.tablemodel.PatchTableModel;
-import main.java.zoomeditor.model.Patch;
+import zoomeditor.ZoomFirmwareEditor;
+import zoomeditor.gui.listener.UniversalListener;
+import zoomeditor.gui.tablemodel.PatchTableModel;
+import zoomeditor.model.Patch;
 
 import javax.swing.*;
 import javax.swing.GroupLayout.Alignment;

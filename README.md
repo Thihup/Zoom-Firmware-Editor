@@ -47,9 +47,9 @@ Other discontinued products
 ```
 
 ## Getting Started
-Zoom Firmware Editor application is a self-executable jar-file. If you have Java JRE installed, then double-click on "ZoomFirmwareEditor.jar" should launch it.
+Zoom Firmware Editor application is a self-executable jar-file. If you have Java JRE installed, then double-click on "zoomeditor.ZoomFirmwareEditor.jar" should launch it.
 
-If you dont have Java installed on your computer, you can download and run "ZoomFirmwareEditor-setup.exe". That setup application will install the compiled Windows executable with embedded JVM (created using Excelsior JET).
+If you dont have Java installed on your computer, you can download and run "zoomeditor.ZoomFirmwareEditor-setup.exe". That setup application will install the compiled Windows executable with embedded JVM (created using Excelsior JET).
 
 **Important notice!** If you are going to inject any **GUITAR** amplifier effect into any **BASS** pedal firmware, then you should inject the file **"CMN_DRV.ZDL"** too! 
 

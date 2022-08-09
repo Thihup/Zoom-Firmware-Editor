@@ -1,6 +1,6 @@
-package main.java.zoomeditor.gui;
+package zoomeditor.gui;
 
-import main.java.ZoomFirmwareEditor;
+import zoomeditor.ZoomFirmwareEditor;
 
 import javax.swing.*;
 import java.awt.*;

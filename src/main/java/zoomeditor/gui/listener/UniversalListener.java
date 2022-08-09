@@ -1,6 +1,6 @@
-package main.java.zoomeditor.gui.listener;
+package zoomeditor.gui.listener;
 
-import main.java.zoomeditor.controller.ApplicationController;
+import zoomeditor.controller.ApplicationController;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

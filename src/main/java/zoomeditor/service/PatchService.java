@@ -1,11 +1,11 @@
-package main.java.zoomeditor.service;
+package zoomeditor.service;
 
-import main.java.ZoomFirmwareEditor;
-import main.java.zoomeditor.model.FileTable;
-import main.java.zoomeditor.model.Firmware;
-import main.java.zoomeditor.model.Patch;
-import main.java.zoomeditor.util.ArrayUtils;
-import main.java.zoomeditor.util.ByteUtils;
+import zoomeditor.ZoomFirmwareEditor;
+import zoomeditor.model.FileTable;
+import zoomeditor.model.Firmware;
+import zoomeditor.model.Patch;
+import zoomeditor.util.ArrayUtils;
+import zoomeditor.util.ByteUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -69,7 +69,7 @@ public class PatchService {
         if (patchFile.getName().length() > Patch.FILENAME_SIZE) {
             log.severe("File name is too long: " + patchFile.getName());
             throw new RuntimeException(ZoomFirmwareEditor.getMessage("tooLongFileNameErrorBeginning") + " \""
-                    + patchFile.getName() + "\" " + ZoomFirmwareEditor.getMessage("tooLongFileNameErrorEnding"));
+                                       + patchFile.getName() + "\" " + ZoomFirmwareEditor.getMessage("tooLongFileNameErrorEnding"));
         }
         try {
             byte[] patchContent = Files.readAllBytes(patchFile.toPath());

@@ -1,6 +1,6 @@
-package main.java;
+package zoomeditor;
 
-import main.java.zoomeditor.controller.ApplicationController;
+import zoomeditor.controller.ApplicationController;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ZoomFirmwareEditor {
-    private static final String CONFIG_FILE = "main/resources/app.config";
-    private static final String MESSAGES_FILE = "main/resources/messages";
+    private static final String CONFIG_FILE = "app.config";
+    private static final String MESSAGES_FILE = "messages";
     private static Properties properties;
     private static ResourceBundle messages;
     private static final Logger log = Logger.getLogger(ZoomFirmwareEditor.class.getName());

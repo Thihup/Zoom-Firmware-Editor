@@ -1,8 +1,8 @@
-package main.java.zoomeditor.gui.tablemodel;
+package zoomeditor.gui.tablemodel;
 
-import main.java.ZoomFirmwareEditor;
-import main.java.zoomeditor.model.Patch;
-import main.java.zoomeditor.service.PatchService;
+import zoomeditor.ZoomFirmwareEditor;
+import zoomeditor.model.Patch;
+import zoomeditor.service.PatchService;
 
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;

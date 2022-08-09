@@ -1,12 +1,12 @@
-package main.java.zoomeditor.controller;
+package zoomeditor.controller;
 
-import main.java.ZoomFirmwareEditor;
-import main.java.zoomeditor.gui.AppWindow;
-import main.java.zoomeditor.gui.MainPanel;
-import main.java.zoomeditor.model.Firmware;
-import main.java.zoomeditor.model.Patch;
-import main.java.zoomeditor.service.FirmwareService;
-import main.java.zoomeditor.service.PatchService;
+import zoomeditor.ZoomFirmwareEditor;
+import zoomeditor.gui.AppWindow;
+import zoomeditor.gui.MainPanel;
+import zoomeditor.model.Firmware;
+import zoomeditor.model.Patch;
+import zoomeditor.service.FirmwareService;
+import zoomeditor.service.PatchService;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

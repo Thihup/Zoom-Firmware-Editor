@@ -1,4 +1,4 @@
-package main.java.zoomeditor.util;
+package zoomeditor.util;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
